@@ -4,7 +4,7 @@
 
 LexOS is an educational hobby operating system project built from scratch using a monolithic kernel architecture. The key design philosophy is maintaining a clear separation between the kernel and user space components (shell), similar to how desktop operating systems work - even though this is a CLI-only system.
 
-The project targets x86/x86_64 architecture and runs on QEMU for testing and development. It serves as an educational platform for understanding operating system internals and low-level programming concepts.
+The project targets x86 architecture and runs on QEMU for testing and development. It serves as an educational platform for understanding operating system internals and low-level programming concepts.
 
 ## User Preferences
 
@@ -49,7 +49,7 @@ Preferred communication style: Simple, everyday language.
 - **Tool**: Makefile-based build system
 - **Target Platform**: QEMU emulator for x86 (32-bit)
 - **Build**: `make` to compile
-- **Run**: `make run-vnc` for VNC output (headless mode for Replit)
+
 
 ## Project Structure
 
