@@ -1,4 +1,4 @@
-# LexOS v1.0.0 - Makefile
+# LexOS v0.0.1 - Makefile
 
 ASM := nasm
 CC := gcc
