@@ -1,0 +1,30 @@
+modules = ["c-clang14", "bash"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+packages = ["nasm", "qemu", "binutils", "grub2", "gcc", "xorriso", "mtools", "glibc_multi"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "LexOS"
+
+[[workflows.workflow]]
+name = "LexOS"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "make run-vnc"
+
+[workflows.workflow.metadata]
+outputType = "vnc"

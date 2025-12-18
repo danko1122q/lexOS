@@ -1,0 +1,12 @@
+---
+BasedOnStyle: LLVM
+IndentWidth: 8          # Kernel Linux pakai tab width 8
+UseTab: ForIndentation
+TabWidth: 8
+ColumnLimit: 80
+BreakBeforeBraces: Linux
+PointerAlignment: Right # int *ptr
+AllowShortFunctionsOnASingleLine: false
+SpacesBeforeTrailingComments: 1
+IndentCaseLabels: true
+...

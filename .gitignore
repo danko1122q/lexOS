@@ -1,0 +1,24 @@
+# Build outputs
+*.o
+*.bin
+*.elf
+*.img
+*.iso
+
+# Backup / temporary files
+*~
+*.swp
+*.swo
+tmp/
+
+# Logs
+*.log
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
