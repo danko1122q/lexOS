@@ -6,6 +6,11 @@ LexOS is an educational hobby operating system project built from scratch using 
 
 The project targets x86 architecture and runs on QEMU for testing and development. It serves as an educational platform for understanding operating system internals and low-level programming concepts.
 
+
+![image](docs/demo.png)
+
+
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
