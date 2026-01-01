@@ -1,19 +1,7 @@
 # LexOS - Hobby Operating System
 
-## Overview
-
-LexOS is an educational hobby operating system project built from scratch using a monolithic kernel architecture. The key design philosophy is maintaining a clear separation between the kernel and user space components (shell), similar to how desktop operating systems work - even though this is a CLI-only system.
-
-The project targets x86 architecture and runs on QEMU for testing and development. It serves as an educational platform for understanding operating system internals and low-level programming concepts.
-
 
 ![image](docs/demo.png)
-
-
-
-## User Preferences
-
-Preferred communication style: Simple, everyday language.
 
 ## System Architecture
 
@@ -75,14 +63,6 @@ LexOS/
 ├── link.ld           # Linker script
 └── grub.cfg          # GRUB bootloader configuration
 ```
-
-## Recent Changes
-
-- **2025-12-18**: Created simfs module to separate filesystem logic from shell code
-- **2025-12-18**: Implemented proper RTC driver for real-time clock
-- **2025-12-18**: Updated Makefile with VNC run target for Replit environment
-- **2025-12-18**: Refactored shell to use simfs for all file/directory operations
-
 ## External Dependencies
 
 ### Development Tools (Required)
