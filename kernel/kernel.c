@@ -42,7 +42,7 @@ static void show_boot_logo(void) {
     printf("\n+================================+\n");
     printf("|                                |\n");
     printf("|          L E X O S             |\n");
-    printf("|    Operating System v0.0.1     |\n");
+    printf("|    Operating System v0.1.1     |\n");
     printf("|                                |\n");
     printf("+================================+\n");
     

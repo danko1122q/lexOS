@@ -74,7 +74,7 @@ static void print_int_padded(int num) {
 static void show_welcome(void) {
     vga_set_color(VGA_COLOR_LIGHT_RED, VGA_COLOR_BLACK);
     printf("\n+======================================+\n");
-    printf("|   Welcome to LexOS Shell v0.0.1      |\n");
+    printf("|   Welcome to LexOS Shell v0.1.1      |\n");
     printf("+======================================+\n");
     vga_set_color(VGA_COLOR_LIGHT_GREY, VGA_COLOR_BLACK);
     printf("  Type 'help' for available commands\n\n");
@@ -109,7 +109,7 @@ static char wait_for_key(void) {
 static void cmd_help(void) {
     const char* help_lines[] = {
         "",
-        "=== LexOS v0.0.1 Commands ===",
+        "=== LexOS v0.1.1 Commands ===",
         "",
         "System Information:",
         "  help      - Show this help message",
@@ -232,7 +232,7 @@ static void cmd_info(void) {
     print_int(sec % 60);
     printf("s\n");
     
-    printf("Shell:        LexOS Shell v0.0.1\n");
+    printf("Shell:        LexOS Shell v0.1.1\n");
     printf("Author:       Davanico (danko1122)\n\n");
 }
 
