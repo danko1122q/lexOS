@@ -70,7 +70,3 @@ LexOS/
 - **NASM**: Netwide Assembler for x86 assembly code
 - **Make**: Build automation
 - **QEMU**: x86 emulator for testing the OS (run with VNC in headless mode)
-
-### No Runtime Dependencies
-- This is a freestanding OS project with no external library dependencies at runtime
-- All functionality must be implemented from scratch or included in the kernel/shell code
